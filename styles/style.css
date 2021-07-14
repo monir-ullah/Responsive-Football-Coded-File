@@ -1,0 +1,467 @@
+/* Common Asset Start */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h6{
+    font-size: 20px;
+    margin-top: 25px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+/* Common Asset End */
+main{
+    background-color: #2D25A0;
+    height: 677px;
+}
+.header-top,.container{
+    width: 1161px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+/* Navigation Menu CSS Start */
+.nav-menu{
+    width: 1161px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.nav-menu-span-left a{
+    color: white;
+    text-decoration: none;
+    margin-left: 36px;
+    
+}
+.nav-menu-span-right{
+    color:white;
+    background-color: #E02C6D;
+    padding: 5px 20px;
+}
+.nav-menu-span-right:hover{
+    cursor: pointer;
+}
+.nav-menu-span-right a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+/* Navigation Menu CSS End */
+
+/* Top Heading CSS Start */
+.top-heading-sec{
+    width: 1161px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+    margin-left: 30px;
+}
+.top-heading{
+    width: 150%;
+    margin-top: -85px;
+}
+.top-heading h1{
+    color: white;
+    font-size: 70px;
+    margin-right: 90px;
+    line-height: 1.4em;
+    margin-bottom: 25px;
+
+}
+.watch-now {
+    background-color: #E02C6D;
+    padding: 10px 25px;
+    color: white;
+    align-items: center;
+}
+.watch-now a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.watch-now:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 20px 50px;
+    transition: .5s ease-in;
+}
+
+.top-heading-image img{
+    width: 500px;
+    margin-right: 50px;
+}
+.top-heading-image img:hover{
+    transform: scale(135%);
+    transition: .3s ease-in;
+}
+/* Top Heading CSS End */
+
+/* Players Section Start  */
+.players{
+    margin-top:70px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1161px;
+    margin: auto;
+    justify-content: space-between;
+}
+.players-div {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.player{
+    width: 300px;
+    height: 450px;
+    box-shadow: 1px 0px 10px #6c6c6c44;
+    padding: 15px;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player-info{
+    width: 300px;
+}
+.player-info p{
+    line-height: 28px;  
+}
+/* Players Section End  */
+
+/* All Highlights Start */
+
+.all-highlights {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.all-highlights-insides{
+    margin-top:70px;
+    margin-bottom: 70px;
+    display: flex;
+    width: 1161px;
+    margin: auto;
+    justify-content: space-between;
+}
+.all-highlights-text {
+    width: 47%;
+}
+.all-highlights-text h2{
+    font-size: 50px;
+}
+
+.all-highlights-image img{
+    width: 560px;
+    height: 427px;
+}   
+
+/* All Highlights End */
+
+
+/* In Patnership With CSS Start */
+.in-partnership-div{
+    margin-top:70px;
+    margin-bottom: 70px;
+    width: 1161px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 1px 0px 10px #6c6c6c44;
+}
+.in-partnership-text {
+    margin-left: 30px;
+    padding-top: 5px;
+}
+.in-partnership-text h2{
+    margin-top: 20px;
+}
+.in-partnership-image{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.in-partnership-div img {
+    padding: 20px;
+    margin-top: -22px;
+}
+
+/* In Patnership With CSS End */
+
+
+/* Form Section CSS Start  */
+.form-section {
+    margin-top: 100px;
+    
+}
+.form-div{
+    
+    margin-top:70px;
+    margin-bottom: 70px;
+    width: 1161px;
+    height: 235px;
+    margin: auto;
+    box-shadow: 1px 0px 10px #6c6c6c44;
+    
+
+}
+.form-text{
+    margin-left: 30px;
+    padding-top: 5px;
+}
+
+.form-text h2{
+    margin-top: 20px;
+}
+.from-input{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.from-input input{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #6c6c6c44;
+    font-size: 30px;
+}
+
+.from-input button{
+    padding: 10px;
+    color:white;
+    margin: 10px;
+    border: 1px solid #6c6c6c18;
+    font-size: 30px;
+    background-color: #E02C6D;
+}
+/* Form Section CSS End  */
+
+/* Footer Section Start  */
+
+.fotter-section-main{
+    display: flex;  
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+} 
+.fotter-section-div {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+footer img {
+    width: 65%;
+    margin: auto;
+}
+.fotter-section-div span a {
+    background-color: #E7E7E8;
+    color: #969BAB;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* Footer Section End  */
+
+/* Responsive Web Layout iPad Pro Start */
+
+    
+    
+    @media only screen and (max-width: 1024px)  {
+
+        main {
+            background-color: #2D25A0;
+            height: 863px;
+            
+            margin: auto;
+        }
+        .header-top, .container {
+            width: 100%;
+            display: flex;
+            margin: auto;
+            justify-content: space-between;
+        }
+        .nav-menu {
+            width: 800px;
+            margin-top: 19px;
+            margin-left: 70px;
+            }
+
+        span.nav-menu-span-left {
+                margin-left: 75px;
+            }
+        .nav-menu-span-left a {
+            color: white;
+            text-decoration: none;
+            margin-left: 17px;
+        }
+
+
+        .top-heading-sec {
+            width: 1024px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 75px;
+            margin-left: 100px;
+            flex-direction: column;
+        }
+
+        .top-heading {
+            width: 80%;
+            
+        }
+
+        .top-heading-image img {
+            width: 500px;
+            margin-top: 60px;
+            margin-right: 364px;
+        }
+
+        .players-div {
+            margin-top: 60px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 75px;
+            margin-left: 136px;
+        }
+        .all-highlights {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .all-highlights-insides {
+        
+            display: flex;
+            width: 1024px;
+            justify-content: center;
+            margin-left: 240px;
+            flex-direction: column;
+        }
+
+        .all-highlights-image {
+            margin-left: -33px;
+            margin-top: 75px;
+        }
+        .all-highlights-image img {
+            width: 616px;
+            height: 456px;
+            
+        }
+
+        .in-partnership-div {
+            margin-top: 70px;
+            margin-bottom: 70px;
+            width: 696px;
+            height: 300px;
+            margin-left: 175px;
+            box-shadow: 1px 0px 10px #6c6c6c44;
+        }
+        .in-partnership-div img {
+            padding: 11px;
+            width: 12%;
+        }
+
+        .form-div {
+            margin-top: 70px;
+            margin-bottom: 70px;
+            width: 700px;
+            height: 400px;
+            margin-left: 175px;
+            box-shadow: 1px 0px 10px #6c6c6c44;
+        }
+        form.form-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .fotter-section-main {
+            display: flex;
+            margin-right: -18px;
+            justify-content: center;
+            text-align: center;
+            margin-top: 72px;
+        }
+    }
+
+/* Responsive Web Layout iPad Pro End */
+
+/* Responsive Web Layout Mobile Start */
+
+@media only screen and (max-width: 360px)  {
+
+    main {
+        background-color: #2D25A0;
+        height: 100%;
+        width: 285%;
+        margin: auto;
+    }
+
+    .nav-menu {
+        width: 100%;
+        margin-top: 19px;
+        margin-left: -53px;
+    }
+
+    .top-heading-sec {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 75px;
+        margin-left: 135px;
+        flex-direction: column;
+    }
+
+    .players {
+        margin-top: 70px;
+        margin-bottom: 70px;
+        width: 350px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .players-div {
+        margin-top: 60px;
+        display: flex;
+        margin-left: 136px;
+        flex-direction: column;
+    }
+
+    .player {
+        width: 129%;
+        height: 460px;
+        box-shadow: 1px 0px 10px #6c6c6c44;
+        margin-left: 83px;
+    }
+
+    .player img {
+        width: 100%;
+        height: 256px;
+    }
+
+    .player-info {
+        width: 327px;
+        margin: auto;
+        margin-left: 0px;
+    }
+
+    .fotter-section-main {
+        display: flex;
+        margin-right: -662px;
+        justify-content: center;
+        text-align: center;
+        margin-top: -49px;
+    }
+}
+
+/* Responsive Web Layout Mobile End */
